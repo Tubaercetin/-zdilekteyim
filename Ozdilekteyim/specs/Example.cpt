@@ -1,0 +1,57 @@
+Created by testinium on 28.02.2022
+
+This is a concept file with following syntax for each concept.
+
+# Alışverişe Başla butonuna tıkla
+* id "com.ozdilek.ozdilekteyim:id/tv_startShoppingStore" li elemente tıkla
+
+# Kategoriler butonuna tıkla
+* id "com.ozdilek.ozdilekteyim:id/nav_categories" li elemente tıkla
+
+# Kadın bölümüne tıkla
+* xpath "//*[@resource-id = 'com.ozdilek.ozdilekteyim:id/relLayCategoriesItem'] [2]" li elemente tıkla
+
+# Pantolon bölümüne tıkla
+* xpath "//*[@resource-id = 'com.ozdilek.ozdilekteyim:id/relLayCategoriesItem'] [14]" li elemente tıkla
+
+# Scroll yap
+* "<scroll edilir>"
+
+# Favorilere ekle
+* xpath "//*[@resource-id='com.ozdilek.ozdilekteyim:id/relLayFav']" li elemente tıkla
+
+# Mail alanına <key> doldur
+* "com.ozdilek.ozdilekteyim:id/etEposta" İd'li elemente <key> değerini yaz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
